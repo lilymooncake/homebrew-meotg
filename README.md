@@ -12,6 +12,7 @@ Personal Homebrew tap for **meotg**: Telegram in the terminal, built from
 
 ```
 brew tap lilymooncake/meotg
+brew trust lilymooncake/meotg   # Homebrew 7+ refuses untrusted taps
 brew install meotg
 meotg --setup        # choose 1. Telegram, enter phone + OTP
 meotg-config         # Enter sends, Option-Enter new line, tomorrow-night theme
